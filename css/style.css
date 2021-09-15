@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans SC';
+}
+ul,li,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.header__top-nav{
+    background: #000;
+    
+    
+}
+.btn {
+    font-family: 'Noto Sans SC';
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff !important;
+}
+.header__top-list> .li i{
+    color: white;
+    
+}
+.links i{
+    font-size: 14px;
+    color: white; 
+}
+.header__top-link{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF !important;
+}
+.logo{
+    content: url(../img/Logo.png);
+}
+.header__input{
+    width: 440px;
+    height: 50px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BBBBBB;
+    border: 1px solid #313131;
+}
+.header__input:focus{
+    outline: none;
+}
+.header__btn{
+    width: 190px;
+    background: black;
+     height: 50px;
+     font-weight: 400;
+     font-size: 14px;
+}
+.dropdown-menu {
+    border-top: 2px solid red;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    width: 300px;
+    padding: 15px;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.btn__two{
+    font-size: 18px;
+    color: #313131 !important;
+}
+.btn__two:hover{
+    background-color: #000;
+    color: white !important;
+}
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+.header__link{
+    font-weight: 400;
+    font-size: 18px;
+    color:#313131 !important; 
+    padding: 10px 25px;
+}
+.header__link:hover{
+    background: #000;
+    color: #FFF !important;
+}
+
+.brbalo::before{
+    content: '';
+    width: 80%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: -15px;
+}
+.link__text1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #313131 !important;
+}
+.link__text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 129%;
+    color: #313131 !important;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 48px;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: border-box; 
+    background: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators {
+    position: unset;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    
+}
+.main__item-left{
+    background: #e5e5e562;
+}
+.borders{
+    top: 15px;
+    width: 70px;
+    height: 70px;
+    background: #000;
+    border-radius: 50%;
+}
+.main__item-text{
+    font-weight: 500;
+    font-size: 24px;
+}
+.main__item-text2{
+    font-weight: 300;
+    font-size: 24px;
+}
+.main__item-right{
+    background: #e5e5e562;
+}
+
+.main__item-bottom{
+    width: 300px;
+    height: 240px;
+    background: #e5e5e562;
+    transition: 0.8s linear;
+}
+.main__item-bottom:hover{
+    transform: scale(1.1);
+}
+.main__item-img{
+    height: 150px;
+}
+.borders__two{
+    bottom: 10px;
+    left: 15px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #000;
+    border-radius: 50%;
+}
+.button{
+    width: 190px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.8s linear;
+}
+.button:hover{
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 255, 0.438);
+  background: midnightblue;
+  color: yellow;
+}
+.title{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.phone__item{
+    bottom: -50px;
+}
+.ico{
+    top: 0;
+    right: 15px;
+}
+.ico:hover{
+    color: red;
+}
+.section__comp{
+    margin-top: 85px;
+}
+.komp__img{
+    transition: 0.5s linear;
+}
+.komp__img:hover{
+    transform: scale(1.1);
+}
+.section__playstation{
+    margin-top: 83px;
+}
+.play__text{
+    font-weight: 600;
+    font-size: 48px;
+}
+.section__seller{
+    margin-top: 200px;
+}
+.seller__img{
+    transition: 0.5s linear;
+}
+
+.seller__img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    margin-top: 83px;
+    background: #313131;
+}
+.footer__input{
+    width: 330px;
+    height: 50px;
+}
+
+.footer__input:focus{
+    outline: none;
+}
+.footer__btn{
+    background: #313131;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.footer__link{
+    font-weight: 400;
+    font-size: 18px;
+    color: white !important; 
+}
+
+@media(max-width: 1400px) and
+(min-width: 1200px){
+    .phone__item{
+        bottom: -80px;
+    }
+}
+@media(max-width:1200px){
+    .ico{
+       right: 250px;
+    }
+    .block{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .phone__item{
+     margin-right: 50px;
+    }
+    .komp__img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 992px){
+    .seller__img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 768px){
+    .ico{
+        right: 150px;
+    }
+    .main__block{
+        justify-content: center;
+    }
+    .main__item-bottom{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer__logo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .footer__input{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer__btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer__right{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__list{
+        justify-content: center;
+    }
+    .footer__text{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+}
+@media(max-width: 576px){
+    .play__text{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .header__input{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .main__item-text{
+        font-size: 18px;
+    }
+    .footer__input{
+        width: 250px;
+    }
+    .play__left{
+        padding-bottom: 50px;
+    }
+    .carousel-indicators{
+        margin-top: 15px;
+    }
+    .header__btn{
+        margin-top: 10px;
+    }
+    .button{
+        margin-bottom: 15px;
+    }
+}
